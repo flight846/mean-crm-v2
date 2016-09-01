@@ -6,7 +6,7 @@ process.env.MONGOHQ_URL = 'mongodb://user:password@url.com:10000/database';
 
 module.exports = {
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://default:defaultpassword@ds153775.mlab.com:53775/mean_tutorial',
     options: {
       user: '',
       pass: ''
