@@ -2,8 +2,6 @@
 
 var defaultEnvConfig = require('./default');
 
-process.env.MONGOHQ_URL = 'mongodb://user:password@url.com:10000/database';
-
 module.exports = {
   db: {
     uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://default:defaultpassword@ds153775.mlab.com:53775/mean_tutorial',
