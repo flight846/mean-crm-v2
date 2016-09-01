@@ -15,8 +15,8 @@ angular.module('customers').controller('CustomersCreateController', ['$scope', '
       // Create new Customer object
       var customer = new Customers ({
         firstName: this.firstName,
-        surname: this.surname,
-        suburb: this.suburb,
+        lastName: this.lastName,
+        city: this.city,
         country: this.country,
         industry: this.industry,
         email: this.email,

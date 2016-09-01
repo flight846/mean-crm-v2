@@ -15,13 +15,13 @@ var CustomerSchema = new Schema({
     default: '',
     trim: true
   },
-  surname: {
+  lastName: {
     type: String,
     default: '',
     trim: true,
-    required: 'Surname cannot be blank'
+    required: 'Last name cannot be blank'
   },
-  suburb: {
+  city: {
     type: String,
     default: '',
     trim: true
